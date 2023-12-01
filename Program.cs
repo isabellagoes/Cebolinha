@@ -1,6 +1,6 @@
 ﻿string fraseDigitada, fraseCebolinha;
 
-Console.Write("Digite uma frasease: ");
+Console.Write("Digite uma frase: ");
 fraseCebolinha = Console.ReadLine()!;
 
 fraseComDislalia = fraseCebolinha
