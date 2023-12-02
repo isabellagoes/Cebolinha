@@ -1,9 +1,9 @@
 ﻿string fraseDigitada, fraseCebolinha;
 
 Console.Write("Digite uma frase: ");
-fraseCebolinha = Console.ReadLine()!;
+fraseDigitada = Console.ReadLine()!;
 
-fraseComDislalia = fraseCebolinha
+fraseCebolinha = fraseDigitada
     .Replace("r", "l")
     .Replace("R", "L");
 
